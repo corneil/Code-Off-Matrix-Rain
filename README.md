@@ -37,3 +37,13 @@ To get you going, have a look at these matrix rain variations. Try applying your
 [![Entelect](http://cdn.entelectonline.co.za/wm-462416-cmsimages/entelectlogo.jpg)](http://www.entelect.co.za/)
 
 [![Prolific Idea](http://www.prolificidea.com/assets/img/logo-full.png)](http://www.prolificidea.com/)
+
+
+## Changes to the Rain Matrix
+* the build is a gradle build with application plugin
+* Colours are gradients
+* Some drop run in a different direction
+
+```
+gradlew run
+```

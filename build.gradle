@@ -1,0 +1,19 @@
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+group = 'com.prolificidea.codeoff'
+version = '1.0-SNAPSHOT'
+
+description = 'Matrix Rain'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+mainClassName = 'com.prolificidea.codeoff.Main'
+
+
+
