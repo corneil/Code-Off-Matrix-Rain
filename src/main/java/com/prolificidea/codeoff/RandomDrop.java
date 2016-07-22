@@ -99,13 +99,7 @@ public class RandomDrop implements Drop {
     }
 
     public char getRandomCharacter() {
-        switch (rng.nextInt(3)) {
-            case 0:
-                return (char) (rng.nextInt(26) + 'a');
-            case 1:
-                return (char) (rng.nextInt(26) + 'A');
-        }
-        return (char) (rng.nextInt(10) + '0');
+        return (char) (rng.nextInt(255 - ' ') + ' ');
     }
 
     public int getRandomInteger(int min, int max) {
