@@ -1,6 +1,21 @@
+# Code Off - Matrix Rain
+
+
+## Changes to the Rain Matrix
+* the build is a gradle build with application plugin
+* Colours are gradients
+* Some drop run in a different direction
+
+```
+gradlew run
+```
+
+#Information
+This code off challenges all attendees of the 2016 [I Code Java Conference](http://j-sa.co) to use their creativity to modify the matrix! This repository contains boilerplate code for rendering matrix rain. Modify the code and add your own twists to make the visualiser your own. Change colours, the text displayed, add images, or even pull some tweets into your app. It's up to you!
+
 ![Code Off](http://www.prolificidea.com/assets/img/code_off-logo.png "Code Off")
 
-# Code Off - Matrix Rain
+
 This code off challenges all attendees of the 2016 [I Code Java Conference](http://j-sa.co) to use their creativity to modify the matrix! This repository contains boilerplate code for rendering matrix rain. Modify the code and add your own twists to make the visualiser your own. Change colours, the text displayed, add images, or even pull some tweets into your app. It's up to you!
 
 Here's what the boilerplate code looks like:
@@ -37,13 +52,3 @@ To get you going, have a look at these matrix rain variations. Try applying your
 [![Entelect](http://cdn.entelectonline.co.za/wm-462416-cmsimages/entelectlogo.jpg)](http://www.entelect.co.za/)
 
 [![Prolific Idea](http://www.prolificidea.com/assets/img/logo-full.png)](http://www.prolificidea.com/)
-
-
-## Changes to the Rain Matrix
-* the build is a gradle build with application plugin
-* Colours are gradients
-* Some drop run in a different direction
-
-```
-gradlew run
-```
