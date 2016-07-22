@@ -22,6 +22,7 @@ public class RandomDrop implements Drop {
         reverse = rng.nextInt(10000) == 2;
         if (reverse) {
             this.y = screenHeight;
+            velocity = velocity / 2;
         } else {
             this.y = (-1) * length * Config.FONT_SIZE;
         }
@@ -89,11 +90,22 @@ public class RandomDrop implements Drop {
         if(rng.nextInt(50000) == 100) {
             // switch direction
             reverse = !reverse;
+            if(reverse) {
+                velocity = velocity / 2;
+            } else {
+                velocity = velocity * 2;
+            }
         }
     }
 
     public char getRandomCharacter() {
-        return (char) (rng.nextInt(26) + 'a');
+        switch (rng.nextInt(3)) {
+            case 0:
+                return (char) (rng.nextInt(26) + 'a');
+            case 1:
+                return (char) (rng.nextInt(26) + 'A');
+        }
+        return (char) (rng.nextInt(10) + '0');
     }
 
     public int getRandomInteger(int min, int max) {
